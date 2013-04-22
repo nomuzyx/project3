@@ -1,0 +1,41 @@
+table,tr,td
+{
+font:bold 15px Times new roman,sans-serif;
+color:white;
+}
+
+div.toplevel
+{
+width:100%;
+margin:0px;
+border:1px solid cadetblue;
+line-height:300%;
+}
+
+div.header
+{
+padding:0.5em;
+color:white;
+background-color:cadetblue;
+clear:left;
+margin-left:210px;
+margin-top:0px;
+}
+
+div.footer
+{
+padding:0.5em;
+color:white;
+background-color:cadetblue;
+clear:left;
+margin-left:210px;
+margin-top:0px;
+}
+
+div.content
+{
+margin-left:100px;
+border-left:1px solid cadetblue;
+padding:1em;
+margin-top:0px;
+}

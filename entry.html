@@ -1,0 +1,183 @@
+<!DOCKTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="entrycss.css">
+
+<script>
+function validateForm()
+{
+var x=document.forms["myForm"]["name"].value;
+if (x==null || x=="")
+  {
+  alert("Name must be filled out");
+  return false;
+  }
+}
+</script>
+
+</head>
+<body style="background-color:cadetblue;">
+	<form name="myForm" action="submitrecd.html" onsubmit="return validateForm()" method="post">
+<div class="header"><h1>Entry Form</h1></div>
+<div class="toplevel">
+<div class="content">
+	<table>
+	<table style="margin-left:100px;">
+	<tr>
+	 <td>
+	 Srno :
+	 </td>
+	 <td>
+	 <input type="text" size = "6" name="srno">
+	 </td>
+	</tr>
+	<tr>
+	 <td>
+	 Name :
+	 </td>
+	 <td>
+	 <input type="text" size = "30" name="name" id="name">
+	 </td>
+	</tr>
+	<tr>
+	  <td>
+	   Address :
+	  </td>
+	  <td>
+	   <input type="text" size = "50" name="add1">
+	  </td>
+	</tr>
+
+	<tr>
+	  <td>
+	  </td>
+	  <td>
+	   <input type="text" size = "50" name="add2">
+	  </td>
+	</tr>
+
+	<tr>
+	  <td>
+	  </td>
+	  <td>
+	   <input type="text" size = "50" name="add3">
+	  </td>
+	</tr>
+
+	<tr>
+	  <td>
+	   City :
+	  </td>
+	  <td>
+	   <input type="text" size = "40" name="city">
+	  </td>
+	</tr>
+
+	<tr>
+	  <td>
+	   pin :
+	  </td>
+	  <td>
+		<input type="text" size = "6" name="pin">
+	  </td>
+	</tr>
+
+	<tr> 
+	   <td>
+		State :
+	   </td>
+	   <td>
+		 <input type="text" size = "30" name="state">
+	   </td>
+	</tr>
+	<tr>
+	   <td>
+		 Country :
+	   </td>
+	   <td>
+		<input type="text" size = "40" name="country">
+	   </td>
+	</tr>
+	<tr>
+	  <td>
+	   Contact Person :
+	  </td>
+	  <td>
+	   <input type="text" size = "50" name="contpers">
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	   Contact Nos :
+	  </td>
+	  <td>
+	   <input type="text" size = "50" name="contnos">
+	  </td>
+	</tr>
+
+	<tr>
+	  <td>
+	   Mobile :
+	  </td>
+	  <td>
+	   <input type="text" size = "10" name="mobile">
+	  </td>
+	</tr>
+
+	<tr>
+	  <td>
+	   E-mail :
+	  </td>
+	  <td>
+	   <input type="text" size = "50" name="email">
+	  </td>
+	</tr>
+
+	<tr>
+	  <td>
+	   Website :
+	  </td>
+	  <td>
+	   <input type="text" size = "50" name="website">
+	  </td>
+	</tr>
+	</table>
+</div>	
+<div class="footer">
+<table>
+<tr>
+<td>
+<button type="button" style="width:60px" name="find" >Find</button>
+</td>
+<td>
+<button type="button" style="width:60px" name="add" >Add</button>
+</td>
+<td>
+<button type="button" style="width:60px" name="modify" >Modify</button>
+</td>
+<td>
+<button type="submit" style="width:60px" name="save" >Save</button>
+</td>
+<td>
+<button type="button" style="width:60px" name="Delete" >Delete</button>
+</td>
+<td>
+<button type="button" style="width:60px" name="undo" >Undo</button>
+</td>
+
+<td>
+<button type="button" style="width:60px" name="exit" >Exit</button>
+</td>
+<td>
+&nbsp&nbsp
+</td>
+<td>
+<button type="button" style="width:60px" name="Upload" >Upload</button>
+</td>
+</tr>
+</table>
+</div>
+</div>	
+</form>
+</body>
+</html>
